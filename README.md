@@ -8,10 +8,14 @@ https://docs.flutter.dev/development/add-to-app/android/project-setup#manual-int
 https://docs.flutter.dev/development/add-to-app/android/add-flutter-screen?tab=default-activity-launch-kotlin-tab
 
 ## Create a Flutter module
-```sh flutter create -t module --org com.example flutter_module```
+```sh 
+flutter create -t module --org com.example flutter_module
+```
 
 ## Add the Flutter module as a dependency
-```sh flutter build aar```
+```sh 
+flutter build aar
+```
 
 ## Add the `profile` build type to app/build.gradle
 ```sh
