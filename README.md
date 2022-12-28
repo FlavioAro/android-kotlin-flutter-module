@@ -39,13 +39,13 @@ https://docs.flutter.dev/development/add-to-app/android/add-flutter-screen?tab=d
 >        }
 
 ## Add FlutterActivity to AndroidManifest.xml
-> <activity
->   android:name="io.flutter.embedding.android.FlutterActivity"
->   android:theme="@style/LaunchTheme"
->   android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
->   android:hardwareAccelerated="true"
->   android:windowSoftInputMode="adjustResize"
->   />
+ <activity
+   android:name="io.flutter.embedding.android.FlutterActivity"
+   android:theme="@style/LaunchTheme"
+   android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+   android:hardwareAccelerated="true"
+   android:windowSoftInputMode="adjustResize"
+   />
 
 ## Add import Launch FlutterActivity to MainActivity.kt
   > import io.flutter.embedding.android.FlutterActivity
