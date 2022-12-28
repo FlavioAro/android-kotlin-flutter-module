@@ -39,12 +39,14 @@ flutter build aar
 
 ## App url in build to settings.gradle
 ```sh
+      repositories {
         maven {
             url '../flutter_module/build/host/outputs/repo'
         }
         maven {
             url "https://storage.googleapis.com/download.flutter.io"
         }
+      }
 ```
 
 ## Add FlutterActivity to AndroidManifest.xml
