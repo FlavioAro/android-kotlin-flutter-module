@@ -1,5 +1,4 @@
-# kotlin-app-flutter-module
-Integrating a Flutter module into a native Kotlin Android app.
+# Integrating a Flutter module into a native Kotlin Android app
 
 ### Start Project
 to start the project access the kotlin_app project in Android Studio and do a 'sync'
