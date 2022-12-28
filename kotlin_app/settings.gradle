@@ -1,0 +1,23 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    String storageUrl = System.env.FLUTTER_STORAGE_BASE_URL ?: "https://storage.googleapis.com"
+    repositories {
+        google()
+        mavenCentral()
+        maven {
+            url '../flutter_module/build/host/outputs/repo'
+        }
+        maven {
+            url "$storageUrl/download.flutter.io"
+        }
+    }
+}
+rootProject.name = "Kotlin App"
+include ':app'
