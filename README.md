@@ -7,7 +7,7 @@ to start the project access the kotlin_app project in Android Studio and do a 's
 https://docs.flutter.dev/development/add-to-app/android/project-setup#manual-integration
 https://docs.flutter.dev/development/add-to-app/android/add-flutter-screen?tab=default-activity-launch-kotlin-tab
 
-In the `kotlin_app` project, below are the steps to implement the module
+In the kotlin_app project, below are the steps to implement the module
 
 ## Create a Flutter module
 ```sh 
@@ -67,7 +67,7 @@ flutter build aar
    import io.flutter.embedding.android.FlutterActivity
 ```
 
-## Kotlin
+## `Kotlin` code example:
 ```sh
  myButton.setOnClickListener {
    startActivity(
