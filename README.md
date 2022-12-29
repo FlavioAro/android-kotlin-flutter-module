@@ -13,12 +13,12 @@ https://docs.flutter.dev/development/add-to-app/android/project-setup#manual-int
 Adding a Flutter screen to an Android app:
 https://docs.flutter.dev/development/add-to-app/android/add-flutter-screen?tab=default-activity-launch-kotlin-tab
 
-# In the `kotlin_app` project, below are the steps to implement the module:
-
 ## Create a Flutter module
 ```sh 
 flutter create -t module --org com.example flutter_module
 ```
+
+# In the `kotlin_app` project, below are the steps to implement the module:
 
 ## Add the Flutter module as a dependency
 ```sh 
