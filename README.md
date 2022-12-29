@@ -71,6 +71,7 @@ flutter build aar
 ```
 
 ## `Kotlin` code example:
+Start the flutter module
 ```sh
  myButton.setOnClickListener {
    startActivity(
@@ -79,6 +80,7 @@ flutter build aar
  }
 ```
 
+Access a specific screen, through a route
 ```sh
  myButton.setOnClickListener {
    startActivity(
