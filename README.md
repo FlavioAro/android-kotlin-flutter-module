@@ -18,12 +18,12 @@ https://docs.flutter.dev/development/add-to-app/android/add-flutter-screen?tab=d
 flutter create -t module --org com.example flutter_module
 ```
 
-# In the `kotlin_app` project, below are the steps to implement the module:
-
 ## Add the Flutter module as a dependency
 ```sh 
 flutter build aar
 ```
+
+# In the `kotlin_app` project, below are the steps to implement the module:
 
 ## Add the `profile` build type to `app/build.gradle`
 ```sh
