@@ -36,7 +36,7 @@ flutter build aar
     }
 ```
 
-## App depend on the Flutter module to `app/build.gradle`
+## Add depend on the Flutter module to `app/build.gradle`
 ```sh
     dependencies {
       debugImplementation 'com.example.flutter_module:flutter_debug:1.0'
@@ -45,7 +45,7 @@ flutter build aar
     }
 ```
 
-## App url in build to `settings.gradle`
+## Add url in build to `settings.gradle`
 ```sh
       repositories {
         maven {
