@@ -4,7 +4,10 @@
 to start the project access the kotlin_app project in Android Studio and do a 'sync'
 
 #### Documentation
+Integrate a Flutter module into your Android project:
 https://docs.flutter.dev/development/add-to-app/android/project-setup#manual-integration
+
+Adding a Flutter screen to an Android app:
 https://docs.flutter.dev/development/add-to-app/android/add-flutter-screen?tab=default-activity-launch-kotlin-tab
 
 In the kotlin_app project, below are the steps to implement the module
