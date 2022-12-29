@@ -1,6 +1,6 @@
 # Integrating a `Flutter Module` into a native `Kotlin android app`
 
-### Start Project
+### Getting Started
 to start the project access the kotlin_app project in Android Studio and do a 'sync'
 ```sh 
 File > Sync Project with Gradle Files
