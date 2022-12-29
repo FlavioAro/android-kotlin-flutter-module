@@ -7,6 +7,8 @@ to start the project access the kotlin_app project in Android Studio and do a 's
 https://docs.flutter.dev/development/add-to-app/android/project-setup#manual-integration
 https://docs.flutter.dev/development/add-to-app/android/add-flutter-screen?tab=default-activity-launch-kotlin-tab
 
+In the `kotlin_app` project, below are the steps to implement the module
+
 ## Create a Flutter module
 ```sh 
 flutter create -t module --org com.example flutter_module
@@ -17,7 +19,7 @@ flutter create -t module --org com.example flutter_module
 flutter build aar
 ```
 
-## Add the `profile` build type to app/build.gradle
+## Add the `profile` build type to `app/build.gradle`
 ```sh
     android {
       buildTypes {
@@ -28,7 +30,7 @@ flutter build aar
     }
 ```
 
-## App depend on the Flutter module to app/build.gradle
+## App depend on the Flutter module to `app/build.gradle`
 ```sh
     dependencies {
       debugImplementation 'com.example.flutter_module:flutter_debug:1.0'
@@ -37,7 +39,7 @@ flutter build aar
     }
 ```
 
-## App url in build to settings.gradle
+## App url in build to `settings.gradle`
 ```sh
       repositories {
         maven {
@@ -49,7 +51,7 @@ flutter build aar
       }
 ```
 
-## Add FlutterActivity to AndroidManifest.xml
+## Add FlutterActivity to `AndroidManifest.xml`
 ```sh
  <activity
    android:name="io.flutter.embedding.android.FlutterActivity"
@@ -60,7 +62,7 @@ flutter build aar
    />
 ```
 
-## Add import Launch FlutterActivity to MainActivity.kt
+## Add import Launch FlutterActivity to `MainActivity.kt`
 ```sh
    import io.flutter.embedding.android.FlutterActivity
 ```
