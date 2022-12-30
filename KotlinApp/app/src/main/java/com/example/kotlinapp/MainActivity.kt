@@ -10,8 +10,8 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val flutterModuleButton = findViewById<Button>(R.id.flutter_module_button)
-        flutterModuleButton.setOnClickListener {
+        val myButton = findViewById<Button>(R.id.myButton)
+        myButton.setOnClickListener {
             startActivity(
                 FlutterActivity
                     .withNewEngine()
