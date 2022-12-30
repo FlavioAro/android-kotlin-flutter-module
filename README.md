@@ -1,7 +1,7 @@
 # Integrating a `Flutter Module` into a native `Kotlin android app`
 
 ### Getting Started
-to start the project access the kotlin_app project in Android Studio and do a 'sync'
+to start the project access the KotlinApp project in Android Studio and do a 'sync'
 ```sh 
 File > Sync Project with Gradle Files
 ```
@@ -23,12 +23,13 @@ flutter create -t module --org com.example flutter_module
 flutter build aar
 ```
 
-# In the `kotlin_app` project, below are the steps to implement the module:
+# In the `KotlinApp` project, below are the steps to implement the module:
 
 ## Add the `profile` build type to `app/build.gradle`
 ```sh
     android {
       buildTypes {
+        ...
         profile {
           initWith debug
         }
@@ -39,6 +40,7 @@ flutter build aar
 ## Add depend on the Flutter module to `app/build.gradle`
 ```sh
     dependencies {
+      ...
       debugImplementation 'com.example.flutter_module:flutter_debug:1.0'
       profileImplementation 'com.example.flutter_module:flutter_profile:1.0'
       releaseImplementation 'com.example.flutter_module:flutter_release:1.0'
@@ -48,6 +50,7 @@ flutter build aar
 ## Add url in build to `settings.gradle`
 ```sh
       repositories {
+        ...
         maven {
             url '../flutter_module/build/host/outputs/repo'
         }
