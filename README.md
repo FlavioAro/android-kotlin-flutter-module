@@ -1,5 +1,8 @@
 # Integrating a `Flutter Module` into a native `Android app`
 
+## Example
+<img src="dist/assets/example.gif?raw=true" width="400px">
+
 ### Getting Started
 to start the project access the AndroidApp project in Android Studio and do a 'sync'
 ```sh 
