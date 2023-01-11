@@ -8,7 +8,7 @@ import io.flutter.embedding.engine.FlutterEngine
 import io.flutter.embedding.engine.FlutterEngineCache
 import io.flutter.embedding.engine.dart.DartExecutor
 
-private const val FLUTTER_ENGINE_ID = "flutter_engine"
+private const val FLUTTER_ENGINE_ID = "module_flutter_engine"
 
 class MainActivity : AppCompatActivity() {
     lateinit var flutterEngine : FlutterEngine
@@ -16,12 +16,15 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        // Instantiate a FlutterEngine
         flutterEngine = FlutterEngine(this)
 
+        // Start executing Dart code to pre-warm the FlutterEngine
         flutterEngine.dartExecutor.executeDartEntrypoint(
             DartExecutor.DartEntrypoint.createDefault()
         )
 
+        // Cache the FlutterEngine to be used by FlutterActivity
         FlutterEngineCache
             .getInstance()
             .put(FLUTTER_ENGINE_ID, flutterEngine)
