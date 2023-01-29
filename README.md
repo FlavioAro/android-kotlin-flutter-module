@@ -1,5 +1,8 @@
 # Integrating a `Flutter Module` into a native `Android app`
 
+## YouTube video where the source code is explained. Subscribe YouTube channel:
+https://www.youtube.com/watch?v=lPp978ImSkE
+
 ## Example
 <img src="dist/assets/example.gif?raw=true" width="400px">
 
