@@ -1,4 +1,4 @@
-# Integrating a `Flutter Module` into a Kotlin native `Android app`
+# Integrate a `Flutter module` into your `Kotlin` native `Android` app
 
 Video on youtube explaining in detail how it works: 
 https://www.youtube.com/watch?v=lPp978ImSkE
