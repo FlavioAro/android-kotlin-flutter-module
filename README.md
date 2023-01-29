@@ -1,7 +1,10 @@
-# Integrating a `Flutter Module` into a native `Android app`
+# Integrating a `Flutter Module` into a Kotlin native `Android app`
 
-## YouTube video where the source code is explained. Subscribe YouTube channel:
+Video on youtube explaining in detail how it works: 
 https://www.youtube.com/watch?v=lPp978ImSkE
+
+Article on medium explaining in detail how it works: 
+https://medium.com/@FlavioAro/how-to-integrate-a-flutter-module-into-your-native-android-application-52c41eeb6154
 
 ## Example
 <img src="dist/assets/example.gif?raw=true" width="400px">
